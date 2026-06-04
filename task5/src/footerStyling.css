@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+footer{
+    background-color:#D552A3;
+    height:35vh;
+    display: flex;
+    justify-content: space-between;
+}
+#first{
+  
+    width:40vw;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    padding-left: 30px;
+    
+}
+div>svg{
+    width: 30px;
+    height:30px;
+    color: #FFFFCC;
+
+}
+svg:hover{
+    color:#ffffcc9d ;
+}
+.box{
+    display: flex;
+    gap: 10px;
+}
+span{
+    font-size: large;
+    padding-top: 5px;
+     color:#000000;
+}
+#second{
+    width:40vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+
+}
+

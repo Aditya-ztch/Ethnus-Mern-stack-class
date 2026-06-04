@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding:0;
+}
+nav{
+    background-image: radial-gradient(rgb(116, 200, 166),rgb(12, 117, 238));
+    height: 60px;
+}
+nav>ol{
+     display: flex;
+     justify-content:space-around;
+     align-items: center;
+     list-style: none;
+     padding: 15px;
+     flex-wrap: wrap;
+     
+     
+}
+ol>li{
+    background-image: linear-gradient(rgb(213, 227, 89),rgb(213, 57, 156));
+    padding:7px;
+    border-radius: 10px;
+    width: 60px;
+    text-align: center;
+    
+    
+
+    
+
+}
+li>a{
+    
+    text-decoration:none;
+    color: #2A3335; 
+}
